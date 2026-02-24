@@ -43,3 +43,8 @@ The Lalonde dataset is a reminder that even in a cleanly randomized experiment, 
 ---
 
 *Dataset: Lalonde (1986) Experimental Subset | Testing Framework: scipy.stats | Resamples: 10,000*
+
+"Explain the concept of 'Return-Aware Experimentation' as used by Netflix.
+How does this differ from the academic standard of p < 0.05?
+Industry-leading experimentation platforms like Netflix treat decision thresholds not as fixed scientific conventions but as business parameters calibrated to the cost asymmetry between false positives and false negatives. Where academia defaults to p < 0.05 as a universal gate, return-aware experimentation adjusts the significance threshold based on the economic stakes of a decision — a low-risk UI tweak and a pricing model change do not deserve the same evidentiary bar. This means α is a function of expected revenue impact, rollout cost, and reversibility, not a constant inherited from 20th-century statistics. Understanding this distinction separates practitioners who run tests from practitioners who design decision systems.
+
